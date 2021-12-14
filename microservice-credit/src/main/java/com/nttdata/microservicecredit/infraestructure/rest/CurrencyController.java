@@ -18,7 +18,7 @@ public class CurrencyController {
 
     @GetMapping
     public Flux<Currency> get() {
-        log.info("Listado de Usuarios");
+        log.info("Listado de moneda");
         return currencyOperations.queryAll();
     }
 

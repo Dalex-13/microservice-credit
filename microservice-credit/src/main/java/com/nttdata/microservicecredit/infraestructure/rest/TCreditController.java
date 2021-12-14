@@ -18,7 +18,7 @@ public class TCreditController {
 
     @GetMapping
     public Flux<TCredit> get() {
-        log.info("Listado de Usuarios");
+        log.info("Listado de tipo de credito");
         return tCreditOperations.queryAll();
     }
 

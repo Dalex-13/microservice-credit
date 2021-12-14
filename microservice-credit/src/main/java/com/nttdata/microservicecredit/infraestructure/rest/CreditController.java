@@ -29,7 +29,7 @@ public class CreditController {
 
     @PostMapping("/add")
     public Mono<Credit> post(@RequestBody Credit credit) {
-        log.info("creacion de usuarios");
+        log.info("creacion de creditos");
         return creditOperations.create(credit);
     }
 
